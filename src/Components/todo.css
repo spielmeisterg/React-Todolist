@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    text-align: center;
+}
+.item{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    margin: 0.5em;
+    gap: .5em;
+}
+.hidden{
+    display: none;
+}
+.input{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.5em;
+    margin: 0.5em;
+}
