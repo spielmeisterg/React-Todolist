@@ -10,7 +10,9 @@ class App extends React.Component{
     }
     add = (event) => {
         let newItem = {name: event.target.parentElement.children[0].value, done: false}
-        this.setState({items : items.push(newItem)})
+        let joined = this.state.items
+        joined.push(newItem)
+        this.setState({items : joined})
         console.log(this.state.items)
 
     }
